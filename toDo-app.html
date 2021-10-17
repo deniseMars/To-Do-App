@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="shortcut icon" type="image/png" href="img/Cyber_Figther"/>
+</head>
+<body>
+    <h1>The Ultimate ToDo App</h1>
+    <h2>Things to do this week:</h2>
+   
+    <!-- The input tag inserts an input textbox (like for a seach field)as default.
+    However, the input tag is flexible and can be change to other types of input. to provide
+    the input type we use type="text" prop. -->
+    <input id='filter' type='text' placeholder='filter note'>
+    <button id='filter-note'>Filter</button>
+    <div class='todo'></div>
+        <form id='add-text'>
+            <input type='text' placeholder='type new' name='text'>
+            <button>Create</button>                 
+        </form>
+        <!-- <label>
+            <input id='get-completed' type='checkbox'> Check for completed tasks 
+        </label> -->
+    
+        <button id="delete-todo">Delete Task</button>
+        <!-- /Function to call uuidv4() -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js'></script>
+        <script src='todo-functions.js'></script> 
+        <script src="todo-useMe.js"></script>
+</body>
+</html> 
+<!--src="http://wzrd.in/standalone/uuid%2Fv4@latest"-->
